@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Application</title>
+    <script type="module">
+        import { Application } from './__target__/app.js';
+
+        window.app = Application();
+    </script>
+</head>
+<body>
+    <div id="app">...</div>
+    <br />
+    <button onclick="app.greet()">Click me</button>
+</body>
+</html>
